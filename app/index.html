@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="application">
+	<head>
+		<meta charset="utf-8">
+		<title>Shorts</title>
+		<link rel="stylesheet" href="css/app.css"/>
+		<link rel="stylesheet" href="css/bootstrap.css"/>
+		<link rel="stylesheet" href="css/bootstrap-responsive.css"/>
+	</head>
+	<body>
+		<div class="container-fluid">
+		
+			<section id="search">
+				<ng-include src="'search/search-partial.html'"/>
+			</section>
+			
+			<section id="view">
+				<ng-view/>
+			</section>
+		
+		</div>
+		<script src="lib/jquery/jquery.js"></script>
+		<script src="lib/bootstrap/bootstrap.js"></script>
+		<script src="lib/angular/angular.js"></script>
+		<script src="lib/angular/angular-resource.js"></script>
+		<script src="application/application.js"></script>
+		<script src="list/thumbnail-filter.js"></script>
+		<script src="list/list-service.js"></script>
+		<script src="list/list-controller.js"></script>
+		<script src="search/search-controller.js"></script>
+	</body>
+</html>
