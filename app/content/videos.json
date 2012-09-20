@@ -3,32 +3,37 @@
 		"title" : "The Shawshank Redemption",
 		"description" : "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
 		"genres":"drama, crime",
-		"image":"theshawshankredemption.jpg"
+		"image":"theshawshankredemption.jpg",
+		"rating" : "R"
 	},
 	{
 		"title" : "Citizen Kane",
 		"description" : "Following the death of a publishing tycoon, news reporters scramble to discover the meaning of his final utterance.",
 		"genres":"drama, mystery",
-		"image":"citizenkane.jpg"
+		"image":"citizenkane.jpg",
+		"rating" : "PG"
 	},
 	{
 		"title" : "Amelie",
 		"description" : "Amelie, an innocent and naive girl in Paris, with her own sense of justice, decides to help those around her and along the way, discovers love.",
 		"genres":"comedy, romance",
-		"image":"amelie.jpg"
+		"image":"amelie.jpg",
+		"rating" : "R"
 	},
 	{
 		"title" : "The Matrix",
 		"description" : "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
 		"genres":"action, sci-fi",
-		"image":"thematrix.jpg"
+		"image":"thematrix.jpg",
+		"rating" : "R"
 	}
 ,
 	{
 		"title" : "Pina",
 		"description" : "A tribute to the late German choreographer, Pina Bausch, as her dancers perform her most famous creations.",
 		"genres":"documentery",
-		"image":"pina.jpg"
+		"image":"pina.jpg",
+		"rating" : "PG"
 	}
 
 ]
