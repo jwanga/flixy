@@ -13,5 +13,6 @@ angular.module('application', ['application.filters', 'application.services', 'a
   config(['$routeProvider', function($routeProvider) {
   
     $routeProvider.when('/', {templateUrl: 'list/list-partial.html', controller: Application.Controllers.ListController});
-    $routeProvider.otherwise({redirectTo: '/view1'});
+    $routeProvider.when('/:query', {templateUrl: 'list/list-partial.html', controller: Application.Controllers.ListController});
+    $routeProvider.otherwise({templateUrl: 'errors/404-partial.html'});
   }]);

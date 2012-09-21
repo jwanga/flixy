@@ -21,6 +21,33 @@
 		"rating" : "R"
 	},
 	{
+		"title" : "Jiro Dreams of Sushi",
+		"description" : "A documentary on 85-year-old sushi master Jiro Ono, his business in the basement of a Tokyo office building, and his relationship with his son and eventual heir, Yoshikazu.",
+		"genres":"documentary",
+		"image":"jirodreamsofsushi.jpg",
+		"rating" : "PG"
+	},	{
+		"title" : "Pina",
+		"description" : "A tribute to the late German choreographer, Pina Bausch, as her dancers perform her most famous creations.",
+		"genres":"documentary",
+		"image":"pina.jpg",
+		"rating" : "PG"
+	},
+	{
+		"title" : "The Neverending Story",
+		"description" : "A troubled boy dives into a wonderous fantasy world through the pages of a mysterious book.",
+		"genres":"family, drama, adventure",
+		"image":"theneverendingstory.jpg",
+		"rating" : "PG"
+	},
+	{
+		"title" : "Coming To America",
+		"description" : "An African prince goes to Queens, New York City to find a wife whom he can respect for her intelligence and will.",
+		"genres":"comedy, romance",
+		"image":"comingtoamerica.jpg",
+		"rating" : "R"
+	},
+	{
 		"title" : "The Matrix",
 		"description" : "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
 		"genres":"action, sci-fi",
@@ -28,12 +55,35 @@
 		"rating" : "R"
 	}
 ,
+
 	{
-		"title" : "Pina",
-		"description" : "A tribute to the late German choreographer, Pina Bausch, as her dancers perform her most famous creations.",
-		"genres":"documentery",
-		"image":"pina.jpg",
+		"title" : "Office Space",
+		"description" : "Comedic tale of company workers who hate their jobs and decide to rebel against their greedy boss.",
+		"genres":"comedy",
+		"image":"officespace.jpg",
+		"rating" : "R"
+	}
+,
+	{
+		"title" : "Rec",
+		"description" : "A television reporter and cameraman follow emergency workers into a dark apartment building and are quickly locked inside with something terrifying.",
+		"genres":"horror, thriller",
+		"image":"rec.jpg",
+		"rating" : "R"
+	},
+	{
+		"title" : "Moon",
+		"description" : "Astronaut Sam Bell has a quintessentially personal encounter toward the end of his three-year stint on the Moon, where he, working alongside his computer, GERTY, sends back to Earth parcels of a resource that has helped diminish our planet's power problems.",
+		"genres":"drama, mystery, sci-fi",
+		"image":"moon.jpg",
 		"rating" : "PG"
+	},
+	{
+		"title" : "Primer",
+		"description" : "Four friends/fledgling entrepreneurs, knowing that there's something bigger and more innovative than the different error-checking devices they've built, wrestle over their new invention.",
+		"genres":"drama, thriller, sci-fi",
+		"image":"primer.jpg",
+		"rating" : "PG-13"
 	}
 
 ]
