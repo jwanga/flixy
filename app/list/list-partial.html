@@ -1,18 +1,8 @@
 
-<div class="row-fluid">
-<!--
-	<div class="span12">
-		<ng-include src="'list/listFilters-partial.html'"/>
-	</div>
-	-->
-	  <div class="span{{filteredVideos.length | calculateSpan}}" ng-repeat="video in filteredVideos = (videos | filter:query)" style="" >
-	  	  <div class="">
-	      	<img ng-src="{{video.image | applyPath}}">
-	      </div>
-	      <h3>{{video.title}} - {{$index}} - {{filteredVideos.length | calculateSpan}}</h3>
-	      <p>{{video.description}}</p>
-	  </div>
+<div ng-repeat="row in rows = (videos | buildRows:6)"  class="row-fluid">
+
+	
 	  
-	</ul>
+	
 </div>
 
