@@ -9,7 +9,7 @@
 	  	  <div class="">
 	      	<img ng-src="{{video.image | applyPath}}">
 	      </div>
-	      <h3>{{video.title}}</h3>
+	      <h3>{{video.title}} - {{$index}} - {{filteredVideos.length | calculateSpan}}</h3>
 	      <p>{{video.description}}</p>
 	  </div>
 	  
