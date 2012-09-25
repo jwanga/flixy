@@ -2,9 +2,10 @@
 
 Application.Controllers.SearchController = function($scope, $rootScope, $routeParams, $location){
 
+
 	$scope.$watch('query', function(newValue, oldValue){
 		//$rootScope.$broadcast('query', {query : newValue});
-		if(newValue){
+		if(newValue != undefined){
 			$location.path('/' + newValue);
 		}
 	});

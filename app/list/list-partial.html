@@ -1,8 +1,12 @@
 
-<div ng-repeat="row in rows = (videos | buildRows:6)"  class="row-fluid">
+<div ng-repeat="row in ((filteredVideos = (videos | filter:query)) | chunk:6)"  class="row-fluid">
 
-	
-	  
-	
+	<div class="span{{filteredVideos.length | calculateSpan}}" ng-repeat="video in row" style="" >
+	  	  <div class="">
+	      		<img ng-src="{{video.image | applyPath}}">
+	      </div>
+	      <h3>{{video.title}}</h3>
+	      <p>{{video.description}}</p>
+	  </div> 
 </div>
 
